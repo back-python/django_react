@@ -15,6 +15,7 @@
 <section class="best-receipe-area">
     <div class="container">
         <div class="row">
+            {% if receita %}
             {% for chave, nome_da_receita in nome_das_receitas.items %}
             <!-- Single Best Receipe Area -->
             <div class="col-12 col-sm-6 col-lg-4">
@@ -28,6 +29,11 @@
                 </div>
             </div>
             {% endfor %}
+            {% else %}
+                <div class="receipe-content">
+                    <h5>Nenhuma receita cadastrada no banco de dados!</h5>
+                </div>
+            {% end if %}
         </div>
     </div>
 </section>
