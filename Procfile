@@ -1,1 +1,0 @@
-web: gunicorn pedroreceitas.wsgi --log-file -
