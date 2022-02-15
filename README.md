@@ -29,8 +29,8 @@ Todas as funcionalidades do projeto anterior https://github.com/robsonleal/djang
 - `Funcionalidade 4`: Documentando a API para retornar um Location no cabeçalho da requisição;
 - `Funcionalidade 5`: Configurando o CORS para fazer a comunicação com a API externa;
 
-Lista de todos os alunos:</br>
-![Screenshot_20220215_170838](https://user-images.githubusercontent.com/27708175/154140929-8e39dd6d-31e8-4256-a519-dcda1b7d2771.png)
+Dependendo da versão que for solicitada pelo Query Parameter Versioning, será devolvido uma classe diferente de Serializer</br>
+![Screenshot_20220215_171547](https://user-images.githubusercontent.com/27708175/154142070-4360121f-0502-4c52-8197-33316938fc7b.png)
 
 Retornando localização do novo curso criado no cabeçalho da requisição:</br>
 ![Screenshot_20220215_165828](https://user-images.githubusercontent.com/27708175/154140227-8f2a2862-5107-415d-914c-4aaefa771268.png)
